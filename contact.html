@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Optima Solutions LLC | 跨境解决方案
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script>
+   function switchLanguage(lang) {
+  const enElements = document.querySelectorAll('.lang-en');
+  const zhElements = document.querySelectorAll('.lang-zh');
+  enElements.forEach(el => el.style.display = (lang === 'en') ? 'inline' : 'none');
+  zhElements.forEach(el => el.style.display = (lang === 'zh') ? 'inline' : 'none');
+}
+window.onload = () => switchLanguage('en');
+  </script>
+ </head>
+
+ <body>
+  <header>
+   <h1>
+    <span class="lang-en">OPTIMA SOLUTIONS LLC</span>
+    <span class="lang-zh" style="display:none;">欧普迪玛 跨境咨询有限公司</span>
+   </h1>
+   <h3>
+    <span class="lang-en">Cross-Border Strategy Services</span>
+    <span class="lang-zh" style="display:none;">跨境战略服务</span>
+   </h3>
+
+   <nav>
+    <a href="index.html">
+     <span class="lang-en">
+      Home
+     </span>
+     <span class="lang-zh" style="display:none;">
+      首页
+     </span>
+    </a>
+    <a href="about.html">
+     <span class="lang-en">
+      About Us
+     </span>
+     <span class="lang-zh" style="display:none;">
+      关于我们
+     </span>
+    </a>
+    <a href="services.html">
+     <span class="lang-en">
+      Services
+     </span>
+     <span class="lang-zh" style="display:none;">
+      服务
+     </span>
+    </a>
+    <a href="contact.html">
+     <span class="lang-en">
+      Contact
+     </span>
+     <span class="lang-zh" style="display:none;">
+      联系
+     </span>
+    </a>
+   </nav>
+   <div style="text-align:right; margin-top:10px;">
+    <button onclick="switchLanguage('en')">
+     English
+    </button>
+    <button onclick="switchLanguage('zh')">
+     中文
+    </button>
+   </div>
+  </header>
+  <main>
+  
+   <img alt="Optima Solutions Logo" src="logo.png" style="height: 60px;"/>
+   <h2>
+    <span class="lang-en">
+     Contact Us
+    </span>
+    <span class="lang-zh" style="display:none;">
+     联系我们
+    </span>
+   </h2>
+  <p>
+  <strong><span class="lang-en">Email:</span><span class="lang-zh" style="display:none;">电子邮箱：</span></strong>
+  info@optimasolutions.org
+</p>
+<p>
+  <strong><span class="lang-en">Phone:</span><span class="lang-zh" style="display:none;">联系电话：</span></strong>
+  +1 (585) 858-5835
+</p>
+<p>
+  <strong><span class="lang-en">Business Hours:</span><span class="lang-zh" style="display:none;">营业时间：</span></strong>
+  <span class="lang-en">Mon–Fri, 9:00 AM – 6:00 PM EST</span>
+  <span class="lang-zh" style="display:none;">周一至周五，上午 9:00 – 下午 6:00（美国东部时间）</span>
+</p>
+
+   <form action="#" method="post">
+    <label for="name">
+      <span class="lang-en">Your Name:</span><span class="lang-zh" style="display:none;">您的名字：</span>
+
+    </label>
+    <br/>
+    <input id="name" name="name" required="" type="text"/>
+    <br/>
+    <br/>
+    <label for="email">
+      <span class="lang-en">Your Email:</span><span class="lang-zh" style="display:none;">您的邮箱：</span>
+
+    </label>
+    <br/>
+    <input id="email" name="email" required="" type="email"/>
+    <br/>
+    <br/>
+    <label for="message">
+      <span class="lang-en">Message:</span><span class="lang-zh" style="display:none;">您的信息：</span>
+
+    
+    </label>
+    <br/>
+    <textarea id="message" name="message" required="" rows="6"></textarea>
+    <br/>
+    <br/>
+    <button type="submit">
+     <span class="lang-en">
+      Send Message
+     </span>
+     <span class="lang-zh" style="display:none;">
+      发送信息
+     </span>
+    </button>
+   </form>
+  </main>
+  <footer>
+   <p>
+    © 2025 Optima Solutions LLC. All rights reserved.
+   </p>
+  </footer>
+ </body>
+</html>
