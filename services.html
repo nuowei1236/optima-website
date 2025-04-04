@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Optima Solutions LLC | 跨境解决方案
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script>
+   function switchLanguage(lang) {
+  const enElements = document.querySelectorAll('.lang-en');
+  const zhElements = document.querySelectorAll('.lang-zh');
+  enElements.forEach(el => el.style.display = (lang === 'en') ? 'inline' : 'none');
+  zhElements.forEach(el => el.style.display = (lang === 'zh') ? 'inline' : 'none');
+}
+window.onload = () => switchLanguage('en');
+  </script>
+ </head>
+ <body>
+  <header>
+    <h1>
+      <span class="lang-en">OPTIMA SOLUTIONS LLC</span>
+      <span class="lang-zh" style="display:none;">欧普迪玛 跨境咨询有限公司</span>
+     </h1>
+     <h3>
+      <span class="lang-en">Cross-Border Strategy Services</span>
+      <span class="lang-zh" style="display:none;">跨境战略服务</span>
+     </h3>
+   <nav>
+    <a href="index.html">
+     <span class="lang-en">
+      Home
+     </span>
+     <span class="lang-zh" style="display:none;">
+      首页
+     </span>
+    </a>
+    <a href="about.html">
+     <span class="lang-en">
+      About Us
+     </span>
+     <span class="lang-zh" style="display:none;">
+      关于我们
+     </span>
+    </a>
+    <a href="services.html">
+     <span class="lang-en">
+      Services
+     </span>
+     <span class="lang-zh" style="display:none;">
+      服务
+     </span>
+    </a>
+    <a href="contact.html">
+     <span class="lang-en">
+      Contact
+     </span>
+     <span class="lang-zh" style="display:none;">
+      联系
+     </span>
+    </a>
+   </nav>
+   <div style="text-align:right; margin-top:10px;">
+    <button onclick="switchLanguage('en')">
+     English
+    </button>
+    <button onclick="switchLanguage('zh')">
+     中文
+    </button>
+   </div>
+  </header>
+  <main>
+
+   <img alt="Optima Solutions Logo" src="logo.png" style="height: 60px;"/>
+   <h2>
+    <span class="lang-en">
+     What We Offer
+    </span>
+    <span class="lang-zh" style="display:none;">
+     我们的服务
+    </span>
+   </h2>
+   <section>
+    <h3>
+      <span class="lang-en">Cross-Border Trade Strategy</span>
+      <span class="lang-zh" style="display:none;">跨境贸易战略</span>
+    </h3>
+    <p>
+      <span class="lang-en">Import/export guidance, market research, and compliance support for U.S.-China trade.</span>
+      <span class="lang-zh" style="display:none;">为中美贸易提供进出口指导、市场调研与合规支持。</span>
+    </p>
+  </section>
+  
+  <section>
+    <h3>
+      <span class="lang-en">Company Registration</span>
+      <span class="lang-zh" style="display:none;">公司注册</span>
+    </h3>
+    <p>
+      <span class="lang-en">Incorporation, business licenses, and legal setup across borders.</span>
+      <span class="lang-zh" style="display:none;">跨境公司设立、营业执照办理与法律架构搭建。</span>
+    </p>
+  </section>
+  
+  <section>
+    <h3>
+      <span class="lang-en">Brand Promotion</span>
+      <span class="lang-zh" style="display:none;">品牌推广</span>
+    </h3>
+    <p>
+      <span class="lang-en">Marketing strategy, localization, and digital campaigns for global expansion.</span>
+      <span class="lang-zh" style="display:none;">制定市场战略、本地化营销与数字推广，助力品牌国际化。</span>
+    </p>
+  </section>
+  
+  <section>
+    <h3>
+      <span class="lang-en">Investment &amp; Asset Allocation</span>
+      <span class="lang-zh" style="display:none;">投资与资产配置</span>
+    </h3>
+    <p>
+      <span class="lang-en">Real estate, financial strategy, and international wealth planning.</span>
+      <span class="lang-zh" style="display:none;">涵盖房地产、财务策略与全球财富规划。</span>
+    </p>
+  </section>
+  
+  <section>
+    <h3>
+      <span class="lang-en">Study Abroad &amp; Relocation</span>
+      <span class="lang-zh" style="display:none;">留学与安置服务</span>
+    </h3>
+    <p>
+      <span class="lang-en">Education consulting, visa services, and family relocation support.</span>
+      <span class="lang-zh" style="display:none;">提供留学咨询、签证办理与家庭搬迁支持服务。</span>
+    </p>
+  </section>
+  
+  </main>
+  <footer>
+   <p>
+    © 2025 Optima Solutions LLC. All rights reserved.
+   </p>
+  </footer>
+ </body>
+</html>

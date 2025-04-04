@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Optima Solutions LLC | 跨境解决方案
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script>
+   function switchLanguage(lang) {
+  const enElements = document.querySelectorAll('.lang-en');
+  const zhElements = document.querySelectorAll('.lang-zh');
+  enElements.forEach(el => el.style.display = (lang === 'en') ? 'inline' : 'none');
+  zhElements.forEach(el => el.style.display = (lang === 'zh') ? 'inline' : 'none');
+}
+window.onload = () => switchLanguage('en');
+  </script>
+ </head>
+ <body>
+  <header>
+   <h1>
+    <span class="lang-en">OPTIMA SOLUTIONS LLC</span>
+    <span class="lang-zh" style="display:none;">欧普迪玛 跨境咨询有限公司</span>
+   </h1>
+   <h3>
+    <span class="lang-en">Cross-Border Strategy Services</span>
+    <span class="lang-zh" style="display:none;">跨境战略服务</span>
+   </h3>
+   <!-- Navigation 部分保持不变 -->
+ 
+   
+    <nav>
+     <a href="index.html">
+      <span class="lang-en">
+       Home
+      </span>
+      <span class="lang-zh" style="display:none;">
+       首页
+      </span>
+     </a>
+     <a href="about.html">
+      <span class="lang-en">
+       About Us
+      </span>
+      <span class="lang-zh" style="display:none;">
+       关于我们
+      </span>
+     </a>
+     <a href="services.html">
+      <span class="lang-en">
+       Services
+      </span>
+      <span class="lang-zh" style="display:none;">
+       服务
+      </span>
+     </a>
+     <a href="contact.html">
+      <span class="lang-en">
+       Contact
+      </span>
+      <span class="lang-zh" style="display:none;">
+       联系
+      </span>
+     </a>
+    </nav>
+    <div style="text-align:right; margin-top:10px;">
+     <button onclick="switchLanguage('en')">
+      English
+     </button>
+     <button onclick="switchLanguage('zh')">
+      中文
+     </button>
+    </div>
+   </header>
+  <main>
+   <img alt="Optima Solutions Logo" src="logo.png" style="height: 60px;"/>
+
+   <h2>
+    <span class="lang-en">Who We Are</span>
+    <span class="lang-zh" style="display:none;">我们是谁</span>
+   </h2>
+   <p>
+    <span class="lang-en">
+     Optima Solutions LLC is a cross-border trade and consulting firm focused on U.S.-China business, investment, and education services.
+    </span>
+    <span class="lang-zh" style="display:none;">
+      欧普迪玛跨境咨询有限公司专注于中美之间的贸易、投资与教育领域，提供跨境商务咨询服务。
+    </span>
+   </p>
+
+   <h3>
+    <span class="lang-en">Our Mission</span>
+    <span class="lang-zh" style="display:none;">我们的使命</span>
+   </h3>
+   <p>
+    <span class="lang-en">
+     To be the trusted strategic partner for international expansion, with a focus on expertise, integrity, and personalized support.
+    </span>
+    <span class="lang-zh" style="display:none;">
+     成为客户可信赖的国际拓展战略伙伴，专注于专业性、诚信和个性化支持。
+    </span>
+   </p>
+
+   <h3>
+    <span class="lang-en">What Sets Us Apart</span>
+    <span class="lang-zh" style="display:none;">我们的优势</span>
+   </h3>
+   <ul>
+    <li>
+     <span class="lang-en">Specialized in U.S.-China trade</span>
+     <span class="lang-zh" style="display:none;">专注于中美贸易</span>
+    </li>
+    <li>
+     <span class="lang-en">Multilingual business professionals</span>
+     <span class="lang-zh" style="display:none;">多语种商务团队</span>
+    </li>
+    <li>
+     <span class="lang-en">Custom strategies for each client</span>
+     <span class="lang-zh" style="display:none;">为每位客户量身定制战略</span>
+    </li>
+   </ul>
+
+   <p>
+    <em>
+     <span class="lang-en">Global Vision. Local Insight. Personalized Strategy.</span>
+     <span class="lang-zh" style="display:none;">全球视野，本地洞察，专属策略。</span>
+    </em>
+   </p>
+  </main>
+
+  <footer>
+   <p>
+    © 2025 Optima Solutions LLC. All rights reserved.
+   </p>
+  </footer>
+</body>
