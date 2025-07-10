@@ -96,7 +96,7 @@ window.onload = () => switchLanguage('en');
   <span class="lang-zh" style="display:none;">周一至周五，上午 9:00 – 下午 6:00（美国东部时间）</span>
 </p>
 
-   <form action="#" method="post">
+ <form action="https://formsubmit.co/info@optimasolutions.org" method="POST">
     <label for="name">
       <span class="lang-en">Your Name:</span><span class="lang-zh" style="display:none;">您的名字：</span>
 
@@ -122,6 +122,9 @@ window.onload = () => switchLanguage('en');
     <textarea id="message" name="message" required="" rows="6"></textarea>
     <br/>
     <br/>
+  <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+  
     <button type="submit">
      <span class="lang-en">
       Send Message
